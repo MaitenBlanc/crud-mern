@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://admin-crud:admin@mern-crud-test.im14l.mongodb.net/');
+mongoose.connect('mongodb+srv://{usuario}:{contrasenia}@mern-crud-test.im14l.mongodb.net/');
 
 const objetobd = mongoose.connection
 
